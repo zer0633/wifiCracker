@@ -4,7 +4,7 @@ from scapy.layers.eap import EAPOL
 from scapy.all import *
 
 
-if len(sys.argv) <= 2:
+if len(sys.argv) <= 3:
         print("Missing wifi adapter, access point bssid and client bssid as arguments")
         print("Run sudo python3 deauthenticator.py <wifi adapter> <access point bssid> <client bssid>")
         sys.exit()
